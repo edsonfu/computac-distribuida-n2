@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package file_processor;
+
+service FileProcessorService {
+  rpc CompressPDF(stream FileChunk) returns (stream FileChunk);
+  rpc ConvertToTXT(stream FileChunk) returns (stream FileChunk);
+  rpc ConvertImageFormat(stream FileChunk) returns (stream FileChunk);
+  rpc ResizeImage(stream FileChunk) returns (stream FileChunk);
+}
+
+message FileChunk {
+  bytes content = 1;
+}

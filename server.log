@@ -1,0 +1,10 @@
+[2026-05-08 23:15:09] SUCCESS - Service: ConvertToTXT, File: /tmp/input_pdf.pdf, Message: Conversao concluida
+[2026-05-08 23:21:05] SUCCESS - Service: ConvertImageFormat, File: /tmp/input_img, Message: Conversao de formato concluida
+[2026-05-08 23:22:29] ERROR - Service: ResizeImage, File: /tmp/input_resize.jpg, Message: Falha no redimensionamento
+[2026-05-08 23:23:22] SUCCESS - Service: ResizeImage, File: /tmp/input_resize.jpg, Message: Redimensionamento concluido
+[2026-05-08 23:36:42] SUCCESS - Service: ConvertToTXT, File: /tmp/input_pdf.pdf, Message: Conversao concluida
+[2026-05-08 23:47:07] SUCCESS - Service: ConvertImageFormat, File: /tmp/input_img, Message: Conversao de formato concluida
+[2026-05-08 23:49:12] SUCCESS - Service: ResizeImage, File: /tmp/input_resize.jpg, Message: Redimensionamento concluido
+[2026-05-08 23:52:54] SUCCESS - Service: ConvertToTXT, File: /tmp/input_pdf.pdf, Message: Conversao concluida
+[2026-05-08 23:54:31] SUCCESS - Service: ConvertImageFormat, File: /tmp/input_img, Message: Conversao de formato concluida
+[2026-05-08 23:55:34] SUCCESS - Service: ResizeImage, File: /tmp/input_resize.jpg, Message: Redimensionamento concluido
